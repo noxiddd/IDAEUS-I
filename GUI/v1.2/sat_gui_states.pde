@@ -26,7 +26,7 @@ XYChart altitude_lineChart,battery_lineChart,spectrograph_lineChart;
 void setup()
 {
   size(1300,700,P3D);
-  sat_img=loadImage("C:\\Users\\JD039274\\Documents\\Processing\\satimage.jpeg");
+ // sat_img=loadImage("C:\\Users\\JD039274\\Documents\\Processing\\satimage.jpeg");
   //imageMode(CENTER);//set the point of action to center of image
   jControl=new ControlP5(this);
   //s=jControl.addSlider("Bcolour",0,255,23,10,10,10,100);
@@ -48,11 +48,11 @@ void draw()
      s2.setColorBackground(color(255,0,0));
    }*/
  background(Bcolour);
+ //makePanel(chartPanelX,chartPanelY,"Alititude",600,300,0);
  
- 
-  image(sat_img,0,0,1300,700);
+  //image(sat_img,0,0,1300,700);
   //showGraphs();
-   switchStates();
+ switchStates();
      
 }
 
@@ -185,7 +185,6 @@ else if (chartType==2)
   textSize(20);
   text(name, 60,30);
   textSize(11);
-  /*text("Gross domestic product measured in inflation-corrected $US", 
-        70,45);*/
+ 
 
 }
