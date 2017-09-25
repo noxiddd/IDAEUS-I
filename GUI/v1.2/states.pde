@@ -19,7 +19,7 @@ final int chartPanelX=10;
 final int chartPanelY=400;
 int last_chart=0;
 
-int state = stateMenu;//stateSeeChartAltitude;//stateMenu;
+int state = 1;//stateSeeChartAltitude;//stateMenu;
 
 void switchStates()
 {
@@ -158,7 +158,6 @@ void keyPressedForStateSeeChartFootball() {
   } // switch
   //
 } // func
-
 void keyPressedForStateSeeFootballStatistics() {
   // any key is possible
   switch(key) {
