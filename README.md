@@ -15,3 +15,14 @@ Future Mods or adjustments/To do List
 
 1. Have a look at the PDU(Power Distribution unit)
 2. Power supply and charging may need to be reviewed
+
+
+
+References:
+
+<u>To stream video using processing:</u>
+http://shiffman.net/processing.org/udp/2010/11/13/streaming-video-with-udp-in-processing/
+
+
+<u>To auto-run processing sketch</u>
+http://research.michaelday.org.uk/2015/05/20/autostart-a-processing-sketch-on-the-raspberry-pi/
