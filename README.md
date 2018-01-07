@@ -26,3 +26,4 @@ http://shiffman.net/processing.org/udp/2010/11/13/streaming-video-with-udp-in-pr
 
 <u>To auto-run processing sketch</u>
 http://research.michaelday.org.uk/2015/05/20/autostart-a-processing-sketch-on-the-raspberry-pi/
+N.B use this raspi-configure to configure autologin and not Inittab
